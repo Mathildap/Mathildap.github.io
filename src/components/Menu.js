@@ -5,6 +5,7 @@ import NotFound from './NotFound';
 import Contact from './Contact';
 import Experience from './Experience';
 import { BrowserRouter as Router, Switch, Link, Route } from 'react-router-dom';
+import Aside from './Aside';
 
 function Menu() {
     return (
@@ -41,7 +42,10 @@ function Menu() {
                 </Link>
             </ul>
             <Switch>
-                <Route exact path='/' component={Start} />
+                <Route exact path='/'>
+                    <Start />
+                    <Aside />
+                </Route>
                 <Route path='/portfolio' component={Portfolio} />
                 <Route path='/erfarenhet' component={Experience} />
                 <Route path='/kontakt' component={Contact} />

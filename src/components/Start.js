@@ -7,15 +7,21 @@ function Start() {
                 <h3>Profil</h3>
                 <span className='text-shadow'> </span>
                 <div className='background-start'>
+                    <h4>
+                        Välkommen, jag heter Mathilda, är 28 år och utbildar mig
+                        just nu till frontend-utvecklare.
+                    </h4>
                     <p>
-                        Välkommen till min sida, jag heter Mathilda, är 28år och
-                        utbildar mig just nu till frontend-utvecklare. Har
-                        senaste 10 åren jobbat på HM, största del i butik,
-                        senast som visual merchandiser, men en del resande har
-                        jag också hunnit med. Jag kastar mig nu in i en ny
-                        branch är än så länge säkert på att det är detta jag
-                        jobba med! Jag är hungrig på ny kunskap inom frontend
-                        och programering och allt där till. Jag gillar design,
+                        <br />
+                        Jag kastar mig in i en ny branch och är redan säkert på
+                        att detta är det jag vill jobba med! Att få utveckla,
+                        problemlösa och samtidigt vara kreativ är något jag
+                        brinner för.
+                        <br />
+                        <br />
+                        Har de senaste 10 åren jobbat på HM, största del i
+                        butik, senast som visual merchandiser, men en del
+                        resande har jag också hunnit med. Jag gillar design,
                         färg och form och har intresse för inredning på
                         fritiden.
                         <br />

@@ -6,7 +6,7 @@ function Portfolio() {
             <article>
                 <h3>Portfolio</h3>
                 <span className='text-shadow'> </span>
-                <p>
+                <p className='portfolio-text'>
                     Här lägger jag upp mina projekt, både mina egna och
                     skolarbeten. Vissa pågående och en del slutförda!
                 </p>
@@ -30,6 +30,25 @@ function Portfolio() {
                             </div>
                             <div className='github-repo-text'>
                                 <p className='repo-descrip'>Calendar</p>
+                            </div>
+                        </article>
+                    </a>
+
+                    <a
+                        target='_blank'
+                        rel='noreferrer'
+                        className='github'
+                        href='https://eventmakarna.com/'
+                    >
+                        <article className='github-box'>
+                            <div className='github-img-box'>
+                                <div className='github-eventmakarna_img'></div>
+                                <p id='repo8'></p>
+                            </div>
+                            <div className='github-repo-text'>
+                                <p className='repo-descrip'>
+                                    Hemsida åt Eventmakarna AB
+                                </p>
                             </div>
                         </article>
                     </a>
