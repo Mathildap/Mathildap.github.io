@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Mathildap/portfolio-mathildap.git/static/css/main.66455cc1.chunk.css",
+    "main.js": "/Mathildap/portfolio-mathildap.git/static/js/main.69d4ad70.chunk.js",
+    "main.js.map": "/Mathildap/portfolio-mathildap.git/static/js/main.69d4ad70.chunk.js.map",
+    "runtime-main.js": "/Mathildap/portfolio-mathildap.git/static/js/runtime-main.d30aa06a.js",
+    "runtime-main.js.map": "/Mathildap/portfolio-mathildap.git/static/js/runtime-main.d30aa06a.js.map",
+    "static/js/2.e0d27579.chunk.js": "/Mathildap/portfolio-mathildap.git/static/js/2.e0d27579.chunk.js",
+    "static/js/2.e0d27579.chunk.js.map": "/Mathildap/portfolio-mathildap.git/static/js/2.e0d27579.chunk.js.map",
+    "index.html": "/Mathildap/portfolio-mathildap.git/index.html",
+    "static/css/main.66455cc1.chunk.css.map": "/Mathildap/portfolio-mathildap.git/static/css/main.66455cc1.chunk.css.map",
+    "static/js/2.e0d27579.chunk.js.LICENSE.txt": "/Mathildap/portfolio-mathildap.git/static/js/2.e0d27579.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/Mathildap/portfolio-mathildap.git/static/media/webshop.0579ed1e.png",
+    "static/media/mp-image.76574f23.JPG": "/Mathildap/portfolio-mathildap.git/static/media/mp-image.76574f23.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d30aa06a.js",
+    "static/js/2.e0d27579.chunk.js",
+    "static/css/main.66455cc1.chunk.css",
+    "static/js/main.69d4ad70.chunk.js"
+  ]
+}
