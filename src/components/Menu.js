@@ -19,7 +19,7 @@ function Menu() {
             <input type='checkbox' id='menu-toggle' />
 
             <ul className='main-nav'>
-                <Link to='/mathildap.github.io'>
+                <Link to='/'>
                     <li className='main-nav-li' id='navStart'>
                         Start
                     </li>
