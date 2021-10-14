@@ -1,5 +1,5 @@
 body {
-    margin: 0px;
+    margin: 0px auto;
     padding: 0px;
     background-image: url('../img/city-bg.jpg');
     background-size: cover;
@@ -14,19 +14,18 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.4);
 }
 header {
-    width: 80%;
-    margin: 7% auto;
-    background-color: #7c6862;
     opacity: 0.95;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Nanum Myeongjo', 'Goudy Old Style', serif;
-    padding: 70px 0px;
+    font-weight: light;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 70px;
+    padding-bottom: 30px;
     letter-spacing: 7px;
 }
 h1 {
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin: 5px 0px;
     text-shadow: 1px 1px 1px #524e48;
 }
@@ -41,8 +40,8 @@ h2 {
     padding: 0;
 }
 h3 {
-    font-family: 'Nanum Myeongjo', 'Goudy Old Style', serif;
-    font-size: 1.1em;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2em;
     font-weight: 800;
     text-align: center;
     text-transform: uppercase;
@@ -51,7 +50,7 @@ h3 {
     z-index: 2;
 }
 .navbar {
-    background-color: #f0e6dc;
+    background-color: rgba(255, 255, 255, 0.5);
     margin: 0 auto;
 }
 label {
@@ -64,10 +63,11 @@ label {
     position: relative;
     height: 5px;
     width: 40px;
-    background-color: #443e39;
+    background-color: #ffffff;
     margin: 5px 10px;
     display: block;
     border-radius: 10px;
+    box-shadow: 1px 1px 3px #524e48;
 }
 .burger:first-of-type {
     margin-top: 13px;
@@ -102,8 +102,9 @@ label:hover > span:nth-child(2) {
 }
 .main-nav {
     max-height: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-shadow: 1px 1px 2px #b8b8b8;
     display: none;
-    background-color: #f0e6dc;
     margin: 0;
     margin-bottom: -3px;
     padding: 0;
@@ -113,7 +114,7 @@ label:hover > span:nth-child(2) {
     padding: 10px;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Nanum Myeongjo', 'Goudy Old Style', serif;
+    font-family: 'Quicksand', sans-serif;
     letter-spacing: 2px;
     -webkit-transition: all 0.3s linear;
     transition: all 0.3s linear;
@@ -376,12 +377,13 @@ li::marker {
     border: 1px solid rgba(255, 255, 255, 0.4);
 }
 footer {
-    font-family: 'Nanum Myeongjo', 'Goudy Old Style', serif;
+    font-family: 'Quicksand', sans-serif;
     color: white;
     text-shadow: 1px 1px 1px #524e48;
     letter-spacing: 1.5px;
     background-color: #baaaa1;
     margin: 0px;
+    padding: 5px;
     bottom: 0;
     width: 100%;
     height: 40px;
@@ -401,9 +403,6 @@ footer {
     display: none;
 }
 @media screen and (min-width: 701px) {
-    header {
-        height: 50vh;
-    }
     header section {
         margin: 14vh 0;
     }
@@ -411,10 +410,10 @@ footer {
         display: none;
     }
     h1 {
-        font-size: 40px;
+        font-size: 50px;
     }
     h2 {
-        font-size: 25px;
+        font-size: 30px;
     }
     .main-nav {
         height: 50px;
@@ -429,7 +428,7 @@ footer {
         margin: auto 3px;
         padding: 15px;
         text-transform: uppercase;
-        font-family: 'Nanum Myeongjo', 'Goudy Old Style', serif;
+        font-family: 'Quicksand', sans-serif;
         color: white;
         letter-spacing: 2px;
         text-shadow: 1px 1px 2px #524e48;
@@ -458,6 +457,7 @@ footer {
     }
     article h4 {
         font-size: 15px;
+        font-family: 'Quicksand', sans-serif;
     }
     .text-shadow {
         width: 300px;
@@ -522,27 +522,31 @@ footer {
     }
 }
 @media screen and (min-width: 1025px) {
+    header {
+        padding-bottom: 0px;
+    }
     h1 {
         font-size: 60px;
     }
     h2 {
         font-size: 30px;
     }
-    input {
-        display: none;
+    .main-nav-li {
+        font-size: larger;
     }
     aside {
         width: 100%;
     }
     aside h3 {
-        font-size: 20px;
+        font-size: 28px;
     }
     aside li {
         font-size: 19px;
         margin: 5px;
     }
     .placeholder-image {
-        width: 80%;
+        width: 65%;
+        margin-top: 10px;
     }
     .contact-box p {
         font-size: 14px;
@@ -577,5 +581,15 @@ footer {
     .background-start h4,
     .experience-text h4 {
         font-size: 20px;
+    }
+    .portfolio-text {
+        text-align: center;
+    }
+    .github-img-box {
+        height: 375px;
+    }
+    .contact-page {
+        width: 80%;
+        margin: 40px auto;
     }
 }
