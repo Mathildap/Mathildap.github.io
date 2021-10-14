@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePic from '../img/mp-image.JPG';
+import profilePic from '../img/mp.png';
 
 function Aside() {
     return (
