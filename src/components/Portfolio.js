@@ -57,6 +57,25 @@ function Portfolio() {
                         target='_blank'
                         rel='noreferrer'
                         className='github'
+                        href='https://github.com/Mathildap/BubblesOMG-GAME'
+                    >
+                        <article className='github-box'>
+                            <div className='github-img-box'>
+                                <div className='github-repo8_img'></div>
+                                <p id='repo8'></p>
+                            </div>
+                            <div className='github-repo-text'>
+                                <p className='repo-descrip'>
+                                    BubblesOMG - Spel
+                                </p>
+                            </div>
+                        </article>
+                    </a>
+
+                    <a
+                        target='_blank'
+                        rel='noreferrer'
+                        className='github'
                         href='https://mathildap.github.io/'
                     >
                         <article className='github-box'>

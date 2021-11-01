@@ -329,6 +329,13 @@ li::marker {
     background-position: center;
     z-index: 1;
 }
+.github-repo8_img {
+    height: 100%;
+    background-image: url('../img/bubblesOMG.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
 .github-eventmakarna_img {
     height: 100%;
     background-image: url('../img/eventmakarna.png');
